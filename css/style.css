@@ -1,26 +1,35 @@
 body {
     margin: 0;
-    font-style: initial;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
     background-color: white;
+    padding: 10px 0 10px 20px;
+    box-sizing: border-box;
 }
 
 h1 {
     display: inline-block;
-    font-size: 50px;
-    padding-top: 20px;
+    margin: 0;
 }
 
 main {
-    background-color: gray;
+    background-color: #4141410a;
+    padding: 40px;
 }
 
 .container {
-	width: 70%;
-	margin: 40px auto;
+    width: 70%;
+	margin: 0 auto;
+    padding: 0 40px 10px 40px;
     background-color: white;
+    border-radius: 5px;
+
+}
+
+h2 {
+    margin-bottom: 0;
 }
 
 .first {
@@ -46,7 +55,10 @@ main {
 }
 
 ul {
-    line-height: 250%;
+    line-height: 200%;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin-top: 5px;
 }
 
 li {
@@ -58,14 +70,16 @@ li {
 span {
     border-radius: 10px;
     display: inline;
+    
 }
 
 .check::after {
     content:"\2713";
-    border: 1px solid lawngreen;
+    border: 1px solid #44cc00;
     border-radius: 50px;
-    color: lawngreen;
+    color: #44cc00;
     padding: 0px 4px;
+    margin-right: 10px;
 }
 
 .cros::after {
@@ -74,4 +88,77 @@ span {
     border-radius: 50px;
     color: red;
     padding: 1px 4px;
+    margin-right: 10px;
+}
+
+.blue {
+    font-size: x-small;
+    border-radius: 12px;
+    color: white;
+    background-color: #47A9E8;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;    
+}
+
+.purple {
+    font-size: x-small;
+    border-radius: 12px;
+    color: white;
+    background-color: #9C72E3;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;    
+}
+
+.green {
+    font-size: x-small;
+    border-radius: 12px;
+    color: white;
+    background-color: #63BEA9;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;    
+}
+
+.orange {
+    font-size: x-small;
+    border-radius: 12px;
+    color: white;
+    background-color: #F39C34;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;    
+}
+
+.pink {
+    font-size: x-small;
+    border-radius: 12px;
+    color: white;
+    background-color: #D563A0;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;    
+}
+
+.green2 {
+    font-size: x-small;
+    border-radius: 12px;
+    color: white;
+    background-color: #B1C729;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;    
 }
